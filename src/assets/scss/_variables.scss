@@ -18,40 +18,7 @@ $theme-colors-light: (
   'warning': #fffdd8,
   'info': #e6fdff,
 );
-$alert-colors: (
-    primary: (
-        text-color: #fff,
-        background-color: #435ebe
-    ),
-    secondary: (
-        text-color: #383d41,
-        background-color: #ebeef3
-    ),
-    success: (
-        text-color: #fff,
-        background-color: #4fbe87   
-    ),
-    warning: (
-        text-color: #fff,
-        background-color: #eaca4a,
-    ),
-    danger: (
-        text-color: #fff,
-        background-color: #f3616d,
-    ),
-    dark: (
-        text-color: #fff,
-        background-color: #454546,
-    ),
-    light: (
-        text-color: #818182,
-        background-color: #f9f9f9,
-    ),
-    info: (
-        text-color: #fff,
-        background-color: #56b6f7,
-    ),
-);
+
 $card-box-shadow:                   -8px 12px 18px 0 rgba(25,42,70,.13);
 $card-title-font-size:              1.2rem;
 $modal-header-font-size:            1.1rem;
@@ -83,16 +50,16 @@ $grays: (
 ) !default;
 // fusv-enable
 
-$blue:    #435ebe !default;
+$blue:    #56348B !default;
 $indigo:  #6610f2 !default;
-$purple:  #6f42c1 !default;
+$purple:  #7267EF !default;
 $pink:    #d63384 !default;
 $red:     #dc3545 !default;
 $orange:  #fd7e14 !default;
-$yellow:  #ffc107 !default;
-$green:   #198754 !default;
+$yellow:  #f4a100 !default;
+$green:   #00ac69 !default;
 $teal:    #20c997 !default;
-$cyan:    #0dcaf0 !default;
+$cyan:    #00cfd5 !default;
 
 // scss-docs-start colors-map
 $colors: (
@@ -113,7 +80,7 @@ $colors: (
 // scss-docs-end colors-map
 
 $primary:       $blue !default;
-$secondary:     $gray-600 !default;
+$secondary:     $purple !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
@@ -133,6 +100,42 @@ $theme-colors: (
   "dark":       $dark
 ) !default;
 // scss-docs-end theme-colors-map
+
+
+$alert-colors: (
+    primary: (
+        text-color: #fff,
+        background-color: $primary,
+    ),
+    secondary: (
+        text-color: #f8f9fa,
+        background-color: $secondary,
+    ),
+    success: (
+        text-color: #fff,
+        background-color: $success,   
+    ),
+    warning: (
+        text-color: #fff,
+        background-color: $warning,
+    ),
+    danger: (
+        text-color: #fff,
+        background-color: $danger,
+    ),
+    dark: (
+        text-color: #fff,
+        background-color: $dark,
+    ),
+    light: (
+        text-color: #495057,
+        background-color: $light,
+    ),
+    info: (
+        text-color: #fff,
+        background-color: $info,
+    ),
+);
 
 // The contrast ratio to reach against white, to determine if color changes from "light" to "dark". Acceptable values for WCAG 2.0 are 3, 4.5 and 7.
 // See https://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast

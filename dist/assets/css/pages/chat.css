@@ -30,7 +30,7 @@
   position: relative;
 }
 .chat-app .chat-app-body .the-contact.active {
-  background-color: #435ebe;
+  background-color: #56348B;
 }
 .chat-app .chat-app-body .the-contact.active .person-name, .chat-app .chat-app-body .the-contact.active .message-excerpt {
   color: #fff;
@@ -95,7 +95,7 @@
 }
 .chat-app .messages .message.message-right {
   float: right;
-  background-color: #697ecb;
+  background-color: #785da2;
   color: #fff;
   border-top-left-radius: 1rem;
   border-top-right-radius: 0;

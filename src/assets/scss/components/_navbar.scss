@@ -47,8 +47,8 @@
 
 .layout-horizontal {
     .header-top {
-        background-color: white;
-        padding:1.5rem;
+        background-color: $primary;
+        padding:0.7rem;
 
         .container {
             display: flex;
@@ -61,12 +61,13 @@
         }
 
         .logo img {
-            height: 20px
+            width: 250px
         }
     }
     .main-navbar  {
         background-color: $primary;
-        padding: 1rem;
+        padding: 0.8rem;
+        padding-bottom: 15px;
         ul {
             list-style: none;
             padding: 0;
