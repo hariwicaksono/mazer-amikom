@@ -58,6 +58,7 @@
         .burger-btn i {
             height: 20px;
             display: inline-block;
+            color: #f8f9fa;
         }
 
         .logo img {
@@ -172,7 +173,7 @@
         }
 
         @media screen and (max-width: 1199px) {
-            background-color: lighten($primary, 47%);
+            background-color: $light;
             overflow: hidden;
             padding: 1rem;
             display: none;
